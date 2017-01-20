@@ -1,0 +1,180 @@
+
+@font-face {
+  font-family: 'Pacifico';
+  src: url(https://fonts.google.com/specimen/Pacifico);
+}
+
+body {
+  color: #665544;
+  padding: 40px;
+  margin:0;
+  padding: 30px;
+}
+
+h1 {
+    text-align: left;
+    color: purple;
+    font-size:45px;
+}
+
+h2 {
+  background-color: purple;
+  opacity: 0.5;
+  color: white;
+
+}
+
+nav {
+      text-align: left;
+      color: purple;
+}
+
+p {
+  font-family: sans-serif;
+}
+
+header {
+    background: lightgray;
+    border: 2px double #dde2e5;
+    border-top: 20;
+    padding: .1em 2.5em;
+    margin: 10;
+    font-family: sans-serif;
+    font-family: Pacifico;
+}
+
+img{
+  box-shadow: 5px 5px 5px grey;
+  border-style: double;
+  padding: 5px;
+  width: auto;
+  margin: auto;
+}
+
+.column1of2 {
+  float: left;
+  width: 400px;
+  margin: 10px;
+}
+
+.column2of2 {
+  float:left;
+  width: 300px;
+  margin: 10px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: hotpink;
+}
+
+p.intro:first-line {
+  font-weight: bold;
+}
+
+p.one{
+  -moz-box-shadow:inset 0 0 10px #777777;
+  -webkit-box-shadow: inset 0 0 10px #777777;
+  box-shadow: inset 0 0 10px #777777;
+}
+
+.nav{
+    border:1px solid #ccc;
+    border-width:1px 0;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:left;
+    font-family: sans-serif;
+}
+.nav ul {
+  list-style: none;
+  background-color: #444;
+  text-align: left;
+    padding: .1em 2.5em;
+  margin: auto;
+}
+.nav li {
+  font-family: sans-serif;
+  font-size: 1.2em;
+  line-height: 40px;
+  height: 40px;
+  border-bottom: 1px solid #888;
+  padding: 0px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  transition: .3s background-color;
+}
+
+.nav a:hover {
+  background-color: purple;
+}
+
+.nav a.active {
+  background-color: #fff;
+  color: #444;
+  cursor: default;
+}
+
+  .nav li {
+    width: 120px;
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.4em;
+  }
+
+  .nav li {
+    display: inline-block;
+    margin-right: -4px;
+  }
+
+section.paintings {
+  text-align: center;
+}
+
+article.welcome{
+  font-family: sans-serif;
+}
+
+img.align-left {
+  float: left;
+  margin-right: 50px;
+
+}
+input[type=submit] {
+    color: purple;
+    padding:5px 15px;
+    background:
+    -webkit-gradient(linear, left top, left bottom, from(#beeae9), to(#a8cfce));
+    background:
+    -moz-linear-gradient(top, #beeae9, #a8cfce);
+    background:
+    -o-linear-gradient(top, #beeae9, #a8cfce);
+    background:
+    -ms-linear-gradient(top, #beeae9, #a8cfce);
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+fieldset {
+  background-color: violet;
+  border-style: inset;
+  border-radius: 10px;
+  font-family: sans-serif;
+  margin: 20px;
+}
